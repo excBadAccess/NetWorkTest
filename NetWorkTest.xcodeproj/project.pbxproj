@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEC0A9E16D74597001F22AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC0A9D16D74597001F22AE /* UIKit.framework */; };
+		FAEC0AA016D74597001F22AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC0A9F16D74597001F22AE /* Foundation.framework */; };
+		FAEC0AA216D74597001F22AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC0AA116D74597001F22AE /* CoreGraphics.framework */; };
+		FAEC0AA816D74597001F22AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAEC0AA616D74597001F22AE /* InfoPlist.strings */; };
+		FAEC0AAA16D74597001F22AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC0AA916D74597001F22AE /* main.m */; };
+		FAEC0AAE16D74597001F22AE /* NetWorkTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC0AAD16D74597001F22AE /* NetWorkTestAppDelegate.m */; };
+		FAEC0AB116D74597001F22AE /* NetWorkTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC0AB016D74597001F22AE /* NetWorkTestViewController.m */; };
+		FAEC0AB416D74597001F22AE /* NetWorkTestViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEC0AB216D74597001F22AE /* NetWorkTestViewController_iPhone.xib */; };
+		FAEC0AB716D74597001F22AE /* NetWorkTestViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEC0AB516D74597001F22AE /* NetWorkTestViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAEC0A9916D74597001F22AE /* NetWorkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetWorkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEC0A9D16D74597001F22AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAEC0A9F16D74597001F22AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAEC0AA116D74597001F22AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAEC0AA516D74597001F22AE /* NetWorkTest-Info.plist */ = {isa = PBXFileReference; path = "NetWorkTest-Info.plist"; sourceTree = "<group>"; };
+		FAEC0AA716D74597001F22AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAEC0AA916D74597001F22AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAEC0AAB16D74597001F22AE /* NetWorkTest-Prefix.pch */ = {isa = PBXFileReference; path = "NetWorkTest-Prefix.pch"; sourceTree = "<group>"; };
+		FAEC0AAC16D74597001F22AE /* NetWorkTestAppDelegate.h */ = {isa = PBXFileReference; path = NetWorkTestAppDelegate.h; sourceTree = "<group>"; };
+		FAEC0AAD16D74597001F22AE /* NetWorkTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkTestAppDelegate.m; sourceTree = "<group>"; };
+		FAEC0AAF16D74597001F22AE /* NetWorkTestViewController.h */ = {isa = PBXFileReference; path = NetWorkTestViewController.h; sourceTree = "<group>"; };
+		FAEC0AB016D74597001F22AE /* NetWorkTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkTestViewController.m; sourceTree = "<group>"; };
+		FAEC0AB316D74597001F22AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NetWorkTestViewController_iPhone.xib; sourceTree = "<group>"; };
+		FAEC0AB616D74597001F22AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NetWorkTestViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEC0A9616D74597001F22AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEC0A9E16D74597001F22AE /* UIKit.framework in Frameworks */,
+				FAEC0AA016D74597001F22AE /* Foundation.framework in Frameworks */,
+				FAEC0AA216D74597001F22AE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEC0A8E16D74597001F22AE = {
+			isa = PBXGroup;
+			children = (
+				FAEC0AA316D74597001F22AE /* NetWorkTest */,
+				FAEC0A9C16D74597001F22AE /* Frameworks */,
+				FAEC0A9A16D74597001F22AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEC0A9A16D74597001F22AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC0A9916D74597001F22AE /* NetWorkTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEC0A9C16D74597001F22AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC0A9D16D74597001F22AE /* UIKit.framework */,
+				FAEC0A9F16D74597001F22AE /* Foundation.framework */,
+				FAEC0AA116D74597001F22AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAEC0AA316D74597001F22AE /* NetWorkTest */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC0AAC16D74597001F22AE /* NetWorkTestAppDelegate.h */,
+				FAEC0AAD16D74597001F22AE /* NetWorkTestAppDelegate.m */,
+				FAEC0AAF16D74597001F22AE /* NetWorkTestViewController.h */,
+				FAEC0AB016D74597001F22AE /* NetWorkTestViewController.m */,
+				FAEC0AB216D74597001F22AE /* NetWorkTestViewController_iPhone.xib */,
+				FAEC0AB516D74597001F22AE /* NetWorkTestViewController_iPad.xib */,
+				FAEC0AA416D74597001F22AE /* Supporting Files */,
+			);
+			path = NetWorkTest;
+			sourceTree = "<group>";
+		};
+		FAEC0AA416D74597001F22AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC0AA516D74597001F22AE /* NetWorkTest-Info.plist */,
+				FAEC0AA616D74597001F22AE /* InfoPlist.strings */,
+				FAEC0AA916D74597001F22AE /* main.m */,
+				FAEC0AAB16D74597001F22AE /* NetWorkTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEC0A9816D74597001F22AE /* NetWorkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEC0ABA16D74597001F22AE /* Build configuration list for PBXNativeTarget "NetWorkTest" */;
+			buildPhases = (
+				FAEC0A9516D74597001F22AE /* Sources */,
+				FAEC0A9616D74597001F22AE /* Frameworks */,
+				FAEC0A9716D74597001F22AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetWorkTest;
+			productName = NetWorkTest;
+			productReference = FAEC0A9916D74597001F22AE /* NetWorkTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEC0A9016D74597001F22AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FAEC0A9316D74597001F22AE /* Build configuration list for PBXProject "NetWorkTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAEC0A8E16D74597001F22AE;
+			productRefGroup = FAEC0A9A16D74597001F22AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEC0A9816D74597001F22AE /* NetWorkTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEC0A9716D74597001F22AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEC0AA816D74597001F22AE /* InfoPlist.strings in Resources */,
+				FAEC0AB416D74597001F22AE /* NetWorkTestViewController_iPhone.xib in Resources */,
+				FAEC0AB716D74597001F22AE /* NetWorkTestViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEC0A9516D74597001F22AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEC0AAA16D74597001F22AE /* main.m in Sources */,
+				FAEC0AAE16D74597001F22AE /* NetWorkTestAppDelegate.m in Sources */,
+				FAEC0AB116D74597001F22AE /* NetWorkTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAEC0AA616D74597001F22AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEC0AA716D74597001F22AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAEC0AB216D74597001F22AE /* NetWorkTestViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEC0AB316D74597001F22AE /* en */,
+			);
+			name = NetWorkTestViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FAEC0AB516D74597001F22AE /* NetWorkTestViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEC0AB616D74597001F22AE /* en */,
+			);
+			name = NetWorkTestViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEC0AB816D74597001F22AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEC0AB916D74597001F22AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEC0ABB16D74597001F22AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetWorkTest/NetWorkTest-Prefix.pch";
+				INFOPLIST_FILE = "NetWorkTest/NetWorkTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAEC0ABC16D74597001F22AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NetWorkTest/NetWorkTest-Prefix.pch";
+				INFOPLIST_FILE = "NetWorkTest/NetWorkTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEC0A9316D74597001F22AE /* Build configuration list for PBXProject "NetWorkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEC0AB816D74597001F22AE /* Debug */,
+				FAEC0AB916D74597001F22AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEC0ABA16D74597001F22AE /* Build configuration list for PBXNativeTarget "NetWorkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEC0ABB16D74597001F22AE /* Debug */,
+				FAEC0ABC16D74597001F22AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEC0A9016D74597001F22AE /* Project object */;
+}
