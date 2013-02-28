@@ -10,4 +10,7 @@
 
 @interface NetWorkTestViewController : UIViewController
 
+
+- (IBAction)btnConnect:(id)sender;
+
 @end

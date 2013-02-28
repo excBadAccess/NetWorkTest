@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA23279A16D75600008F20A9 /* Communicator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA23279916D75600008F20A9 /* Communicator.m */; };
 		FAEC0A9E16D74597001F22AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC0A9D16D74597001F22AE /* UIKit.framework */; };
 		FAEC0AA016D74597001F22AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC0A9F16D74597001F22AE /* Foundation.framework */; };
 		FAEC0AA216D74597001F22AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC0AA116D74597001F22AE /* CoreGraphics.framework */; };
@@ -16,23 +17,27 @@
 		FAEC0AB116D74597001F22AE /* NetWorkTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC0AB016D74597001F22AE /* NetWorkTestViewController.m */; };
 		FAEC0AB416D74597001F22AE /* NetWorkTestViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEC0AB216D74597001F22AE /* NetWorkTestViewController_iPhone.xib */; };
 		FAEC0AB716D74597001F22AE /* NetWorkTestViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEC0AB516D74597001F22AE /* NetWorkTestViewController_iPad.xib */; };
+		FAEC0AC316D74626001F22AE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEC0AC216D74626001F22AE /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA23279816D75600008F20A9 /* Communicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Communicator.h; sourceTree = "<group>"; };
+		FA23279916D75600008F20A9 /* Communicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Communicator.m; sourceTree = "<group>"; };
 		FAEC0A9916D74597001F22AE /* NetWorkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetWorkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEC0A9D16D74597001F22AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAEC0A9F16D74597001F22AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAEC0AA116D74597001F22AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FAEC0AA516D74597001F22AE /* NetWorkTest-Info.plist */ = {isa = PBXFileReference; path = "NetWorkTest-Info.plist"; sourceTree = "<group>"; };
+		FAEC0AA516D74597001F22AE /* NetWorkTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NetWorkTest-Info.plist"; sourceTree = "<group>"; };
 		FAEC0AA716D74597001F22AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAEC0AA916D74597001F22AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FAEC0AAB16D74597001F22AE /* NetWorkTest-Prefix.pch */ = {isa = PBXFileReference; path = "NetWorkTest-Prefix.pch"; sourceTree = "<group>"; };
-		FAEC0AAC16D74597001F22AE /* NetWorkTestAppDelegate.h */ = {isa = PBXFileReference; path = NetWorkTestAppDelegate.h; sourceTree = "<group>"; };
+		FAEC0AAB16D74597001F22AE /* NetWorkTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetWorkTest-Prefix.pch"; sourceTree = "<group>"; };
+		FAEC0AAC16D74597001F22AE /* NetWorkTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkTestAppDelegate.h; sourceTree = "<group>"; };
 		FAEC0AAD16D74597001F22AE /* NetWorkTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkTestAppDelegate.m; sourceTree = "<group>"; };
-		FAEC0AAF16D74597001F22AE /* NetWorkTestViewController.h */ = {isa = PBXFileReference; path = NetWorkTestViewController.h; sourceTree = "<group>"; };
+		FAEC0AAF16D74597001F22AE /* NetWorkTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkTestViewController.h; sourceTree = "<group>"; };
 		FAEC0AB016D74597001F22AE /* NetWorkTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkTestViewController.m; sourceTree = "<group>"; };
 		FAEC0AB316D74597001F22AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NetWorkTestViewController_iPhone.xib; sourceTree = "<group>"; };
 		FAEC0AB616D74597001F22AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NetWorkTestViewController_iPad.xib; sourceTree = "<group>"; };
+		FAEC0AC216D74626001F22AE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +48,7 @@
 				FAEC0A9E16D74597001F22AE /* UIKit.framework in Frameworks */,
 				FAEC0AA016D74597001F22AE /* Foundation.framework in Frameworks */,
 				FAEC0AA216D74597001F22AE /* CoreGraphics.framework in Frameworks */,
+				FAEC0AC316D74626001F22AE /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +75,7 @@
 		FAEC0A9C16D74597001F22AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAEC0AC216D74626001F22AE /* CFNetwork.framework */,
 				FAEC0A9D16D74597001F22AE /* UIKit.framework */,
 				FAEC0A9F16D74597001F22AE /* Foundation.framework */,
 				FAEC0AA116D74597001F22AE /* CoreGraphics.framework */,
@@ -86,6 +93,8 @@
 				FAEC0AB216D74597001F22AE /* NetWorkTestViewController_iPhone.xib */,
 				FAEC0AB516D74597001F22AE /* NetWorkTestViewController_iPad.xib */,
 				FAEC0AA416D74597001F22AE /* Supporting Files */,
+				FA23279816D75600008F20A9 /* Communicator.h */,
+				FA23279916D75600008F20A9 /* Communicator.m */,
 			);
 			path = NetWorkTest;
 			sourceTree = "<group>";
@@ -167,6 +176,7 @@
 				FAEC0AAA16D74597001F22AE /* main.m in Sources */,
 				FAEC0AAE16D74597001F22AE /* NetWorkTestAppDelegate.m in Sources */,
 				FAEC0AB116D74597001F22AE /* NetWorkTestViewController.m in Sources */,
+				FA23279A16D75600008F20A9 /* Communicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +296,7 @@
 				FAEC0ABC16D74597001F22AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
